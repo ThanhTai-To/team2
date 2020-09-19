@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!--meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>FONT END DEMO</title>
+</head>
+
+
+
+
+<body>
+    
+  <!--Home-->
+  <div id="home">
+    <!--Navbar-->
+    <nav class="navbar bg-light navbar-light navbar-expand-lg modified ">
+      <div class="container">
+      <a class="navbar-brand" href="#home">
+        <!-- <img
+          src="data:image/png;base64,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">
+      </a> -->
+
+    <a class ="navbar-logo" href="#home">
+        <img src="img/logo.png" alt="Logo" title="Logo">
+    </a>      
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+    </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#aboutus">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#object">Media</a></li>
+          <li class="nav-item"><a class="nav-link" href="#char">Char</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+  </div>
+</body>
+
+
+    
+
+
+
+
+
+
+
+
+<!-- 
+<div id="contact" class="offset">
+    <footer>
+      <div class="row justify-content-center">
+        <div class="col-md-5 text-center">
+          <img
+            src="data:image/png;base64,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">
+
+          <p>
+          </p>
+
+          <strong>Contact Info</strong>
+          <p>Wizardhoanglong@gmail.com</p>
+          <p>Billy_Fame2020©</p>
+
+          <a href="" target="_blank"><i class="fab fa-facebook-square fa-4x"></i></a>
+          <a href="" target="_blank"><i class="fab fa-twitter-square fa-4x"></i></a>
+          <a href="" target="_blank"><i class="fab fa-youtube-square fa-4x"></i></a>
+
+
+
+
+        </div>
+      </div>
+    </footer>
+
+  </div> -->
+
+</html>
+<!--js and min and min-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
