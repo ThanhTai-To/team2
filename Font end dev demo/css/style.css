@@ -16,7 +16,7 @@ html, body {
 
 #home .modified
 {
-  background-image: linear-gradient(to right,#DDFFEE ,#D685FF) !important;
+  background-image: linear-gradient(to left,#DDFFEE ,#D685FF) !important;
   font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
